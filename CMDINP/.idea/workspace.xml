@@ -21,9 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2d800a07-b25d-4328-bd44-bbd6d3888de8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ClientOneFormcontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ClientOneFormcontroller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/LoginFormcontrollercontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/LoginFormcontrollercontroller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/ClientOneForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/ClientOneForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientOneInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientOneInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientTwoInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientTwoInitializer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.AppInitializer">
+  <component name="RunManager" selected="Application.ClientTwoInitializer">
     <configuration name="AppInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppInitializer" />
       <module name="CMDINP" />
@@ -68,9 +67,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientOne" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClientOne" />
+    <configuration name="ClientOneInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClientOneInitializer" />
       <module name="CMDINP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientTwoInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClientTwoInitializer" />
+      <module name="CMDINP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server.Server" />
+      <module name="CMDINP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,14 +102,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ClientOne" />
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.AppInitializer" />
+      <item itemvalue="Application.Server (1)" />
+      <item itemvalue="Application.ClientOneInitializer" />
+      <item itemvalue="Application.ClientTwoInitializer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientTwoInitializer" />
+        <item itemvalue="Application.ClientOneInitializer" />
         <item itemvalue="Application.AppInitializer" />
-        <item itemvalue="Application.ClientOne" />
+        <item itemvalue="Application.Server (1)" />
         <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
@@ -110,7 +133,7 @@
       <workItem from="1660809819923" duration="558000" />
       <workItem from="1660811165090" duration="103000" />
       <workItem from="1660837141976" duration="385000" />
-      <workItem from="1660837766837" duration="3556000" />
+      <workItem from="1660837766837" duration="4514000" />
     </task>
     <servers />
   </component>
@@ -146,25 +169,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1660837974142" />
-    <state width="1323" height="80" key="GridCell.Tab.0.bottom" timestamp="1660840129664">
+    <state width="1323" height="108" key="GridCell.Tab.0.bottom" timestamp="1660842178921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="80" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1660840129664" />
+    <state width="1323" height="108" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1660842178921" />
     <state width="1323" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1660809368845" />
-    <state width="1323" height="80" key="GridCell.Tab.0.center" timestamp="1660840129664">
+    <state width="1323" height="108" key="GridCell.Tab.0.center" timestamp="1660842178921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="80" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1660840129664" />
+    <state width="1323" height="108" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1660842178921" />
     <state width="1323" height="172" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1660809368845" />
-    <state width="1323" height="80" key="GridCell.Tab.0.left" timestamp="1660840129664">
+    <state width="1323" height="108" key="GridCell.Tab.0.left" timestamp="1660842178921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="80" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1660840129664" />
+    <state width="1323" height="108" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1660842178921" />
     <state width="1323" height="172" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1660809368845" />
-    <state width="1323" height="80" key="GridCell.Tab.0.right" timestamp="1660840129664">
+    <state width="1323" height="108" key="GridCell.Tab.0.right" timestamp="1660842178921">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="80" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1660840129664" />
+    <state width="1323" height="108" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1660842178921" />
     <state width="1323" height="172" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.860@1366.0.1600.860" timestamp="1660809368845" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1660837838303">
       <screen x="0" y="0" width="1366" height="728" />

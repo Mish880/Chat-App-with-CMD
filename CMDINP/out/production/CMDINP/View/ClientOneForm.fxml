@@ -7,16 +7,16 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="413.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ClientOneFormcontroller">
    <children>
       <AnchorPane prefHeight="39.0" prefWidth="470.0" style="-fx-background-color: #34495e;">
          <children>
-            <Label layoutX="14.0" layoutY="15.0" text="ClientOneForm" textFill="#fffafa">
+            <Label layoutX="7.0" layoutY="10.0" text="ClientOneForm :" textFill="#fffafa">
                <font>
-                  <Font size="13.0" />
+                  <Font size="14.0" />
                </font>
             </Label>
+            <Label fx:id="lblname" layoutX="115.0" layoutY="12.0" prefHeight="17.0" prefWidth="51.0" />
          </children>
       </AnchorPane>
       <VBox fx:id="vbox" layoutX="22.0" layoutY="66.0" prefHeight="290.0" prefWidth="423.0" />
